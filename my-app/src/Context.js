@@ -42,7 +42,8 @@ function ContextProvider({children}) {
                             cartItems, 
                             addToCart, 
                             removeFromCart,
-                            emptyCart}}>
+                            emptyCart
+        }}>
             {children}
         </Context.Provider>
     )
